@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .7s;
+}
+
+.navigation a:hover {
+    color: #fff;
+    background-color: #3a6cf4;
+    border-radius: 5px;
+}
+section {
+    padding: 100px 100px;
+}
+
+.homepage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #0a49f6;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.homepage h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.homepage h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.homepage h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.homepage h4 {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.carsbrand {
+    margin-left: 225px;
+
+}
+
+.carsbrand a {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    background-color: #4e9eff;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.475em 1.6875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    transition: .7s ease;
+}
+
+.carsbrand a:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+/* 
+footer {
+    background-color: rgba(0, 255, 255, 0.618);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+} */
+
+.footer p:not(.copyright) {
+    padding: 20px;
+    border-bottom: 1px solid var(--seconder_color);
+    font-size: 22px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.footer .social-icons .social {
+    padding: 10px 10px;
+    color: var(--seconder_color);
+}
+
+.footer a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .copyright span {
+    font-weight: bold;
+    color: var(--seconder_color);
+}
+
+.footer {
+/* 
+    background: var(--seconder_color);
+    color: var(--seconder_color); */
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: -10px;
+    direction: none;
+}
