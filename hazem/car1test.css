@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+
+}
+
+header {
+    /* background-color: rgba(0 0 0/.5); */
+    background: none;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #e2cd1a;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.navigation {
+    margin-left: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #d1e822;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+} 
+
+
+.marcedcehome {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url(../JIMY/imgs/carbackground.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main_h1 {
+    color: #e2cd1a;
+    margin-top: 150px;
+    padding-left: 100px;
+    font-size: 4.075em;
+}
+.page1 {
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 20% 66% 14%;
+    grid-template-areas:
+    "spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1"
+    "side side side side cont cont cont cont cont cont"
+    "spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2";
+}
+
+header {
+    background-color: rgba(0 0 0/.5);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo {
+    grid-area: logo;
+    text-decoration: none;
+    color: #e2cd1a;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navigation {
+    grid-area: nav;
+    margin-left: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #d1e822;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+} 
+
+.spa1 {
+    grid-area: spa1;
+    background-color: black;
+    color: #d1e822;
+}
+
+.spa1 h1 {
+    margin-top: 65px;
+    font-weight: 800;
+    margin-left: 34%;
+    font-size: 50px;
+}
+.img {
+    grid-area: cont;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.aside1 {
+    grid-area: side;
+    background-color: rgb(0, 0, 0);
+    color: rgb(209, 232, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    background-color: rgb(0, 0, 0);
+    height:410px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.info h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+    margin-top: 15px;
+}
+.info p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 25px;
+    margin-top: 0;
+}
+.spa2 {
+    grid-area: spa2;
+    background-color: black;
+}
+
+img {
+    width:800px;
+    height:430px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.page2 {
+    height: 100vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 20% 66% 14%;
+    grid-template-areas:
+    "spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1 spa1"
+    "cont cont cont cont cont cont cont side side side side"
+    "spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2 spa2";
+}
+
+.spa3 {
+    grid-area: spa1;
+    background-color: black;
+    color: #d1e822;
+}
+
+.spa3 h1 {
+    margin-top: 65px;
+    font-weight: 800;
+    margin-left: 34%;
+    font-size: 50px;
+}
+
+.img2 {
+    grid-area: cont;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.aside2 {
+    grid-area: side;
+    background-color: rgb(0, 0, 0);
+    color: rgb(209, 232, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info2 {
+    background-color: rgb(0, 0, 0);
+    height:410px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.info2 h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+    margin-top: 15px;
+}
+.info2 p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 25px;
+    margin-top: 0;
+}
+.spa4 {
+    grid-area: spa2;
+    background-color: black;
+}
+
+img {
+    width:800px;
+    height:430px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
