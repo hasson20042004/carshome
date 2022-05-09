@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+
+
+
+.bookonline {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0a49f6;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title {
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #0a49f6;
+    box-shadow: 0 5px 25px rgb(1 1 1);
+    transform: translate(-50%, -50%);
+    width: 499px;
+    height: 480px;
+    border-radius: 65px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+
+.form {
+    border: 184px solid;
+    border-bottom-right-radius: 67px;
+    border-bottom-left-radius: 67px;
+    border-bottom-width: 184px;
+}
+
+input {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-bottom: 2px solid #ffffff;
+    background: none;
+    padding: 3px;
+    color: #ffffff;
+}
+
+.name {
+    top: 140px;
+    left: 100px;
+}
+
+.phonenumber {
+    top: 210px;
+    left: 100px;
+}
+
+.carbrand {
+    left: 100px;
+    top: 280px;
+    width: 95px;
+}
+
+.carmodel {
+    left: 200px;
+    top: 280px;
+    width: 95px;
+}
+
+
+.carcolor {
+    left: 300px;
+    top: 280px;
+    width: 95px;
+}
+
+.bankaccount {
+    top: 350px;
+    left: 100px;
+}
+
+::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sendus {
+    position: absolute;
+    top: 400px;
+    left: 197.5px;
+    width: 105px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .7s;
+    letter-spacing: 1px;
+}
+
+.sendus:hover {
+    background: #fff;
+    color: #0077ff;
+}
